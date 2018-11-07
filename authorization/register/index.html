@@ -1,0 +1,215 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+
+
+	    <title>Регистрация в личном кабинете FXCHEATS</title>
+	<meta charset="utf-8">
+		<link rel="shortcut icon" href="/img/icon64.png">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Регистрация </title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link rel="shortcut icon" href="img/favicon.ico"/>
+	<link href="https://fonts.googleapis.com/css?family=Work+Sans:300,400,500,700,800" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Ubuntu" />
+
+	<!-- Animate.css -->
+	<link rel="stylesheet" href="/main/css/animate.css">
+	<!-- Icomoon Icon Fonts-->
+	<link rel="stylesheet" href="/main/css/icomoon.css">
+	<!-- Bootstrap  -->
+	<link rel="stylesheet" href="/main/css/bootstrapautreg.css">
+
+	<!-- Magnific Popup -->
+	<link rel="stylesheet" href="/main/css/magnific-popup.css">
+
+	<!-- Owl Carousel  -->
+	<link rel="stylesheet" href="/main/css/owl.carousel.min.css">
+	<link rel="stylesheet" href="/main/css/owl.theme.default.min.css">
+	<!-- Flexslider  -->
+	<link rel="stylesheet" href="/main/css/flexslider.css">
+
+	<!-- Theme style  -->
+	<link rel="stylesheet" href="/main/css/styleautreg.css">
+
+	<!-- Modernizr JS -->
+	<script src="/main/js/modernizr-2.6.2.min.js"></script>
+	<script src="https://www.google.com/recaptcha/api.js" async defer></script>
+	<!-- FOR IE9 below -->
+	<!--[if lt IE 9]>
+	<script src="../template/js/respond.min.js"></script>
+	<![endif]-->
+
+	</head>
+	<body>
+	<div class="fh5co-loader"></div>
+
+	<div class="alerts">
+	</div>
+
+	<div id="page">
+
+	<div id="fh5co-blog" style="padding: 1em 0 3em;">
+		<div class="container">
+			<div class="row">
+
+				<div class="imgAut">
+					<img src="/img/logo.png">
+				</div>
+				<div class="fh5co-blog animate-box">
+
+					<div class="col-md-6 animate-box">
+						<div class="blog-title">
+							<label class="blog-title-text">Регистрация</label>
+						</div>
+					</div>
+
+
+				<div class="fh5co-blog animate-box">
+
+				<div class="col-md-6 animate-box"><div class="blog-text">
+					<form method="POST" class="reg">
+										<div class="main-error"></div>
+						<div class="row form-group">
+							<div class="col-md-13">
+								<label for="account">Ваш логин </label>
+								<input type="text" name="username" class="form-control login" style="outline: none;">
+							</div>
+						</div>
+						<div class="row form-group">
+							<div class="col-md-13">
+								<label for="account">Ваш Email </label>
+								<input type="text" name="mail" class="form-control email" style="outline: none;">
+							</div>
+						</div>
+
+						<div class="row form-group">
+							<div class="col-md-13">
+								<label for="name">Ваш пароль</label>
+								<input type="password" name="password1" class="form-control password" style="outline: none;">
+							</div>
+						</div>
+						<div class="row form-group">
+							<div class="col-md-13">
+								<label for="name">Повторите пароль</label>
+								<input type="password" name="password2" class="form-control password2" style="outline: none;">
+							</div>
+						</div>
+						<div class="row form-group">
+							<div class="col-md-13">
+								<label for="name">reCaptcha</label>
+								<div class="d-flex js-center">
+									<div data-theme="white" class="g-recaptcha" data-sitekey="6LdLqkoUAAAAAILd7X8Daf-nxIC52PflrTqMMN3R"></div>
+								</div>
+							</div>
+						</div>
+												<div class="form-group" align="center" style="margin-bottom: 5px;">
+						    <input type="submit" name="submit" value="Регистрация" class="btn btn-primary" style="outline: none;">
+								<a class="btn btn-primary" href="/authorization/" style="outline: none;">Назад</a>
+						</div>
+						<div class="form-group-gl" align="center">
+							<a class="btn btn-primary-gl" href="/" style="outline: none;">Главная</a>
+						</div>
+
+					</form>
+					<div class="form-group" align="center" style="margin-bottom: -55px;">
+						<h7>Регистрируя аккаунт, Вы соглашаетесь с </h7><a href="/index/agreement"><span>Пользовательским соглашением</span></a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div style="padding-bottom: 70px;"></div></div>
+	</div>
+
+
+
+
+
+	</div>
+
+	<div class="gototop js-top">
+		<a href="#" class="js-gotop"><i class="icon-arrow-up"></i></a>
+	</div>
+
+	<!-- jQuery -->
+	<script src="/main/js/jQuery.js"></script>
+	<script src="/main/js/jquery.min.js"></script>
+
+	<script type="text/javascript">
+		$(".reg").submit(function(){
+
+			var login = $(this).find('.login').val();
+			var email = $(this).find('.email').val();
+			var password = $(this).find('.password').val();
+			var password2 = $(this).find('.password2').val();
+			var recaptcha = grecaptcha.getResponse();
+
+			var sendData = { login: login , email: email ,password: password , password2: password2, recaptcha: recaptcha};
+
+			$.ajax ({
+				type: 'POST',
+				url: "/authorization/reg/",
+				data: sendData,
+				dataType: 'json',
+				success: function(data)
+					{
+						if(data['status'] == 1){
+							$(".alerts").append(
+								"<div class='alert alert-success' role='alert'>" +
+									"<i class='fa fa-times-circle'></i>" +
+									"<p>" + data['message'] + "</p>" +
+								"</div>"
+							);
+							setTimeout(function(){
+								window.location.href = "/profile/";
+							}, 1000);
+						}else{
+							$(".alerts").append(
+								"<div class='alert alert-danger' role='alert'>" +
+									"<i class='fa fa-times-circle'></i>" +
+									"<p>" + data['message'] + "</p>" +
+								"</div>"
+							);
+						}
+						removeAlert();
+					}
+			});
+			return false;
+		});
+
+		function removeAlert(){
+
+			var GetLastAlert = $('.alerts .alert').last();
+
+			setTimeout(function(){
+				GetLastAlert.slideUp(500);
+			}, 4000);
+
+			setTimeout(function(){
+				GetLastAlert.remove();
+			}, 4500);
+
+		}
+	</script>
+	<!-- jQuery Easing -->
+	<script src="/main/js/jquery.easing.1.3.js"></script>
+	<!-- Bootstrap -->
+	<script src="/main/js/bootstrap.min.js"></script>
+	<!-- Waypoints -->
+	<script src="/main/js/jquery.waypoints.min.js"></script>
+	<!-- Stellar Parallax -->
+	<script src="/main/js/jquery.stellar.min.js"></script>
+	<!-- Flexslider -->
+	<script src="/main/js/jquery.flexslider-min.js"></script>
+	<!-- countTo -->
+	<script src="/main/js/jquery.countTo.js"></script>
+	<!-- Magnific Popup -->
+	<script src="/main/js/jquery.magnific-popup.min.js"></script>
+	<script src="/main/js/magnific-popup-options.js"></script>
+	<!-- Main -->
+	<script src="/main/js/main.js"></script>
+
+
+	</body>
+</html>

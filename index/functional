@@ -1,0 +1,225 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Функционал приватного чита FXCHEATS</title>
+
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<link rel="shortcut icon" href="/img/icon64.png">
+  <link rel="stylesheet" href="/main/newdesign/bootstrap.css">
+  <link rel="stylesheet" href="/main/newdesign/style.css">
+
+
+	<link rel="stylesheet" href="/main/css/flexslider.css">
+	<script type="text/javascript" src="/main/js/jQuery.js"></script>
+	<script src="/main/js/slidfunct.js"></script>
+
+
+	</head>
+	<body class="buy-bg">
+	<section class="nav-bg">
+	  <div class="container">
+	      <div class="row">
+					<nav class="navbar navbar-expand-lg navbar-light bg-transparent p-0 w-100">
+	          <a class="navbar-brand" href="/">
+	            <img src="/main/images/logo.png" alt="">
+	          </a>
+	          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+	            <span class="navbar-toggler-icon"></span>
+	          </button>
+
+	          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+	            <ul class="navbar-nav mx-auto">
+	              <li class="nav-item"><a class="nav-link text-lg-left text-center font-14 font-medium" href="/">Главная</a></li>
+	              <li class="nav-item"><a class="nav-link text-lg-left text-center font-14 font-medium" href="/index/instruction">Инструкция</a></li>
+	              <li class="nav-item active"><a class="nav-link text-lg-left text-center font-14 font-medium" href="/index/functional">Функционал</a></li>
+	              <li class="nav-item"><a class="nav-link text-lg-left text-center font-14 font-medium" href="/index/activate">Активировать чит</a></li>
+	              <li class="nav-item"><a class="nav-link text-lg-left text-center font-14 font-medium" href="/index/buy">Купить чит</a></li>
+	            </ul>
+	          </div>
+																			<a href="/authorization/" class="auth-nav font-14 d-lg-block d-none font-medium text-center">Авторизация</a>
+						
+	        </nav>
+	      </div>
+	    </div>
+	</section>
+
+  <div class="container" style="margin-top: 80px;width: 1120px;margin-bottom: 80px;">
+
+					<div class="inner" style="height: 500px;">
+
+					  <div class="comparison-slider-wrapper" style="height: 512px;">
+
+							<div class="row">
+								<div class="col col-12 col-md-6">
+									<div class="row">
+										<div class="w-100 glass-user">
+											<div class="glass-title font-16 mx-auto font-bold text-center text-white">Глазами обычного игрока</div>
+										</div>
+									</div>
+								</div>
+								<div class="col col-12 col-md-6">
+									<div class="row">
+										<div class="w-100 glass-no-user">
+											<div class="glass-title font-16 mx-auto font-bold text-center text-white">Глазами пользователя FX Cheat</div>
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<div class="comparison-slider" style="height: 500px;">
+								<img style="height: 500px;" src="/img/slidePosle.jpg" alt="marioPhoto 2">
+								<div class="resize" style="height: 500px;">
+								<img style="height: 500px;" src="/img/slideDo.jpg" alt="marioPhoto 1">
+
+								</div>
+							<div class="divider" ></div>
+							</div>
+
+						</div>
+
+					</div>
+
+				</div>
+
+
+
+
+
+
+
+	    <div class="bot-description">
+	      <div class="container">
+	        <div class="row">
+	          <div class="col col-12 col-lg-4">
+	            <div class="row">
+	              <div class="w-100 box-desc bottom-110 mx-auto">
+	                <div class="bot-desc-title font-bold  text-center">LEGIT BOT</div>
+	                <div class="bot-desc-title2 font-regular text-center">ПОМОЩЬ В НАВОДКЕ</div>
+	                <ul class="bot-desc-ul font-regular text-white text-center">
+	                  <li>Aimbot Active - Включить/Выключить Aim</li>
+	                  <li>Smoke Check - Проверка на Smoke</li>
+	                  <li>Flash Check - Проверка на Flash</li>
+	                  <li>Jump Check - Проверка на прыжок</li>
+	                  <li>Smooth Type - Тип доводки</li>
+	                  <li>pSilent - Доводка пули</li>
+	                  <li>Bone - Кость для наводки</li>
+	                  <li>Fov - Радиус доводки</li>
+	                  <li>Type RCS - Тип контроля спрея</li>
+	                </ul>
+	              </div>
+	            </div>
+	          </div>
+	          <div class="col col-12 col-lg-4">
+	            <div class="row">
+	              <div class="w-100 box-desc bottom-110 mx-auto">
+	                <div class="bot-desc-title font-bold  text-center">TRIGGER BOT</div>
+	                <div class="bot-desc-title2 font-regular text-center">АВТОМАТИЧЕСКАЯ СТРЕЛЬБА</div>
+	                <ul class="bot-desc-ul font-regular text-white text-center">
+	                  <li>Active - Включить/выключить Trigger</li>
+	                  <li>On key - Настройка кнопки работы</li>
+	                  <li>Delay - Задержка перед выстрелом</li>
+	                  <li>Bone Group - Кость в какую стрелять</li>
+	                  <li>Head Only - Стрельба только в голову</li>
+	                </ul>
+	              </div>
+	            </div>
+	          </div>
+	          <div class="col col-12 col-lg-4">
+	            <div class="row">
+	              <div class="w-100 box-desc bottom-110 mx-auto">
+	                <div class="bot-desc-title font-bold  text-center">VISUAL</div>
+	                <div class="bot-desc-title2 font-regular text-center">ИНФОРМАЦИЯ О ПРОТИВНИКЕ</div>
+	                <ul class="bot-desc-ul font-regular text-white text-center">
+									<li>Enemy Only - Подсвечивать врагов</li>
+									<li>Visible Only - Только если виден</li>
+									<li>Box - Обводка моделек</li>
+									<li>Health - Показывает кол-во жизней игрока</li>
+									<li>Armor - Показывает кол-во брони игрока</li>
+									<li>Weapon - Показывает оружия игрока</li>
+									<li>Soud - Показывает шаги</li>
+									<li>Chams - Подсветка модельки игрока</li>
+									<li>Radar - Радар с игроками</li>
+	                </ul>
+	              </div>
+	            </div>
+	          </div>
+	        </div>
+	        <div class="row">
+	          <div class="col col-12 col-lg-4">
+	            <div class="row">
+	              <div class="w-100 box-desc bottom-110 mx-auto">
+	                <div class="bot-desc-title font-bold  text-center">MISC</div>
+	                <div class="bot-desc-title2 font-regular text-center">ДОПОЛНИТЕЛЬНЫЕ ФУНКЦИИ</div>
+	                <ul class="bot-desc-ul font-regular text-white text-center">
+	                  <li>Remove Flash - Удаление эффекта Flash</li>
+	                  <li>BunnyHop - Автоматическая распрыжка</li>
+	                  <li>AutoStrafe - Автоматический стрейф</li>
+	                  <li>ShowRanks - Показывает ранги</li>
+	                  <li>KnifeBot - Автоматические удары ножом</li>
+	                  <li>ClanTag - Изменяет клантег</li>
+	                  <li>Grenade Helper - Помощь в раскидке</li>
+	                  <li>Auto Pistol - Автоматическая стрельба из пистолета</li>
+	                </ul>
+	              </div>
+	            </div>
+	          </div>
+	          <div class="col col-12 col-lg-4">
+	            <div class="row">
+	              <div class="w-100 box-desc bottom-110 mx-auto">
+	                <div class="bot-desc-title font-bold  text-center">CHANGER</div>
+	                <div class="bot-desc-title2 font-regular text-center">ИЗМЕНЕНИЕ СКИНОВ</div>
+	                <ul class="bot-desc-ul font-regular text-white text-center">
+	                  <li>Skin Changer - Красивые скины на оружие</li>
+	                  <li>Glove Changer - Красивые скины на перчатки</li>
+	                  <li>Sticker Changer - Стикеры на оружие</li>
+	                  <li>Profile Changer - Изменение информации в профиле</li>
+	                  <li>Inventory Changer *beta - Все вещи в инвентаре</li>
+	                </ul>
+	              </div>
+	            </div>
+	          </div>
+	          <div class="col col-12 col-lg-4">
+	            <div class="row">
+	              <div class="w-100 box-desc bottom-110 mx-auto">
+	                <div class="bot-desc-title font-bold  text-center">SETTINGS</div>
+	                <div class="bot-desc-title2 font-regular text-center">НАСТРОЙКИ ЧИТА</div>
+	                <ul class="bot-desc-ul font-regular text-white text-center">
+	                  <li>Save - Сохранить CFG</li>
+	                  <li>Load - Загрузить CFG</li>
+	                  <li>Cfg - Ваш CFG</li>
+	                  <li>Language - Меняет язык меню</li>
+	                  <li>WaterMark - Название чита в левом верхнем углу</li>
+	                </ul>
+	              </div>
+	            </div>
+	          </div>
+	        </div>
+	      </div>
+	    </div>
+
+			<div class="footer">
+	      <div class="container">
+	        <div class="row">
+	          <div class="w-100">
+	            <div class="copyright font-14 font-medium text-white text-uppercase">fx-cheats.ru / 2018</div>
+	            <img src="/main/images/logo_footer.png" alt="" class="d-block">
+	            <div class="copyright2 font-14 font-medium text-white text-uppercase"><a href="https://vk.com/fxcheats" class="copyright2 font-14 font-medium text-white text-uppercase" >Наша группа</a></span></div>
+	          </div>
+	        </div>
+	      </div>
+	    </div>
+
+
+				<script src="/main/js/jquery.flexslider-min.js"></script>
+
+				<script src="/main/js/main.js"></script>
+				<script src="/main/js/slidfunct.js"></script>
+
+	    <script src="js/jquery-3.2.1.min.js"></script>
+	    <script src="js/bootstrap.min.js"></script>
+	</body>
+</html>

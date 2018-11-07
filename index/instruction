@@ -1,0 +1,87 @@
+
+<!DOCTYPE HTML>
+<html>
+
+	<head>
+
+	<meta charset="utf-8">
+	<title>Инструкция по покупке приватного чита FXCHEATS</title>
+
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<link rel="shortcut icon" href="/img/icon64.png">
+  <link rel="stylesheet" href="/main/newdesign/bootstrap.css">
+  <link rel="stylesheet" href="/main/newdesign/style.css">
+
+
+	</head>
+
+	<body class="buy-bg bp-80">
+	<section class="nav-bg">
+	  <div class="container">
+	      <div class="row">
+					<nav class="navbar navbar-expand-lg navbar-light bg-transparent p-0 w-100">
+	          <a class="navbar-brand" href="/">
+	            <img src="/main/images/logo.png" alt="">
+	          </a>
+	          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+	            <span class="navbar-toggler-icon"></span>
+	          </button>
+
+	          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+	            <ul class="navbar-nav mx-auto">
+	              <li class="nav-item"><a class="nav-link text-lg-left text-center font-14 font-medium" href="/">Главная</a></li>
+	              <li class="nav-item active"><a class="nav-link text-lg-left text-center font-14 font-medium" href="/index/instruction">Инструкция</a></li>
+	              <li class="nav-item"><a class="nav-link text-lg-left text-center font-14 font-medium" href="/index/functional">Функционал</a></li>
+	              <li class="nav-item"><a class="nav-link text-lg-left text-center font-14 font-medium" href="/index/activate">Активировать чит</a></li>
+	              <li class="nav-item"><a class="nav-link text-lg-left text-center font-14 font-medium" href="/index/buy">Купить чит</a></li>
+	            </ul>
+	          </div>
+																			<a href="/authorization/" class="auth-nav font-14 d-lg-block d-none font-medium text-center">Авторизация</a>
+						
+	        </nav>
+	      </div>
+	    </div>
+	</section>
+
+	    <div class="container">
+	      <div class="row">
+	        <div class="faq-title w-100 text-uppercase font-bold mx-auto"><span>инструкция по покупке</span></div>
+	        <div class="faq-steps w-100">
+	          <div class="faq-step-1">
+	            <div class="faq-step-title font-bold text-uppercase text-white">ОПЛАТИТЕ ПОДПИСКУ</div>
+	            <div class="faq-step-desc font-medium text-white text-uppercase font-14">У нас Вы можете приобрести любую удобную для вас подписку. После того как Вы выбрали нужную подписку и оплатили ее, система выдаст ключ активации.</div>
+	            <a href="/index/buy" class="faq-step-button d-block bg-white font-medium font-16 text-center">Приобрести</a>
+	          </div>
+	          <div class="faq-step-2">
+	            <div class="faq-step-title font-bold text-uppercase text-white">АКТИВИРУЙТЕ ПОДПИСКУ</div>
+	            <div class="faq-step-desc font-medium text-white text-uppercase font-14">Перейдите в раздел активации чита, введите ваш логин и ключ активации, который вы купили. </div>
+	            <a href="#!" class="faq-step-button d-block bg-white font-medium font-16 text-center">Активировать</a>
+	          </div>
+	          <div class="faq-step-3">
+	            <div class="faq-step-title font-bold text-uppercase text-white">СКАЧАЙТЕ ЛОАДЕР</div>
+	            <div class="faq-step-desc font-medium text-white text-uppercase font-14">Скачайте лоадер из личного кабинета </div>
+	            <a href="/profile" class="faq-step-button d-block bg-white font-medium font-16 text-center">Личный кабинет</a>
+	          </div>
+	        </div>
+	      </div>
+	    </div>
+
+			<div class="footer">
+	      <div class="container">
+	        <div class="row">
+	          <div class="w-100">
+	            <div class="copyright font-14 font-medium text-white text-uppercase">fx-cheats.ru / 2018</div>
+	            <img src="/main/images/logo_footer.png" alt="" class="d-block">
+	            <div class="copyright2 font-14 font-medium text-white text-uppercase"><a href="https://vk.com/fxcheats" class="copyright2 font-14 font-medium text-white text-uppercase" >Наша группа</a></span></div>
+	          </div>
+	        </div>
+	      </div>
+	    </div>
+
+
+	    <script src="js/jquery-3.2.1.min.js"></script>
+	    <script src="js/bootstrap.min.js"></script>
+	</body>
+</html>
