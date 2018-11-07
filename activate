@@ -1,0 +1,125 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Функционал приватного чита FXCHEATS</title>
+
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<link rel="shortcut icon" href="/img/icon64.png">
+  <link rel="stylesheet" href="/main/newdesign/bootstrap.css">
+  <link rel="stylesheet" href="/main/newdesign/style.css">
+	<link rel="stylesheet" href="/main/css/alertify.core.css" />
+	<link rel="stylesheet" href="/main/css/alertify.default.css" id="toggleCSS" />
+	<link rel="stylesheet" href="/main/css/animate.css">
+	<link rel="stylesheet" href="/main/css/icomoon.css">
+	<link rel="stylesheet" href="/main/css/magnific-popup.css">
+	<link rel="stylesheet" href="/main/css/owl.carousel.min.css">
+	<link rel="stylesheet" href="/main/css/owl.theme.default.min.css">
+	<link rel="stylesheet" href="/main/css/flexslider.css">
+	<script src="/main/js/modernizr-2.6.2.min.js"></script>
+
+
+	<script src="/main/js/jquery-2.1.4.min.js"></script>
+	<script src="/main/js/Flazy.js"></script>
+	<script src="/main/js/alertify.min.js"></script>
+	</head>
+	<body class="buy-bg">
+	<section class="nav-bg">
+	  <div class="container">
+	      <div class="row">
+					<nav class="navbar navbar-expand-lg navbar-light bg-transparent p-0 w-100">
+	          <a class="navbar-brand" href="/">
+	            <img src="/main/images/logo.png" alt="">
+	          </a>
+	          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+	            <span class="navbar-toggler-icon"></span>
+	          </button>
+
+	          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+	            <ul class="navbar-nav mx-auto">
+	              <li class="nav-item"><a class="nav-link text-lg-left text-center font-14 font-medium" href="/">Главная</a></li>
+	              <li class="nav-item"><a class="nav-link text-lg-left text-center font-14 font-medium" href="/index/instruction">Инструкция</a></li>
+	              <li class="nav-item"><a class="nav-link text-lg-left text-center font-14 font-medium" href="/index/functional">Функционал</a></li>
+	              <li class="nav-item active"><a class="nav-link text-lg-left text-center font-14 font-medium" href="/index/activate">Активировать чит</a></li>
+	              <li class="nav-item"><a class="nav-link text-lg-left text-center font-14 font-medium" href="/index/buy">Купить чит</a></li>
+	            </ul>
+	          </div>
+																			<a href="/authorization/" class="auth-nav font-14 d-lg-block d-none font-medium text-center">Авторизация</a>
+						
+	        </nav>
+	      </div>
+	    </div>
+	</section>
+
+<section class="glass">
+		<div class="container">
+			<div class="row">
+				<div class="modal" id="activation" tabindex="-1" role="dialog" aria-labelledby="activationTitle" aria-hidden="true">
+					<div class="modal-dialog modal-dialog-centered" role="document">
+						<div class="modal-content">
+							<div class="modal-body">
+							 <form method="POST" action="" id="form_activ">
+								 <input type="hidden" name="public_key" value="a1c6b-4392">
+									<div class="act-title font-bold mx-auto"><span>активация</span></div>
+									<div class="input-group mx-auto top-30">
+									<label for="Username" class="font-medium font-16 w-100">Ваш логин:</label>
+									<input type="text" class="form-control font-regular font-14" name="account" placeholder="Введите логин от своего аккаунта" id="Username">
+									</div>
+									<div class="input-group mx-auto top-30">
+									<label for="Username" class="font-medium font-16 w-100">Ключ активации:</label>
+								  <input type="text" class="form-control font-regular font-14 input" name="key"  placeholder="Приобретенный ключ активации..." id="Username">
+									</div>
+									<div class="input-group mx-auto top-30">
+									<label for="Username" class="font-medium font-16 w-100"><span style="font-family:'Ubuntu Light';color:#4A76A8;">*</span>Логин реферала:</label>
+								  <input type="text" class="form-control font-regular font-14 input" name="referal"  placeholder="Введите логин друга, для начисления бонуса..." id="Username">
+									</div>
+									<input class="" type="hidden" name="desc" value="Магаз">
+									<button class="btn btn-primary" type="button" id="activBtn">Активировать</button>
+								</form>
+								<label for="Username" class="font-medium font-16 w-100" style="margin-bottom: 10px;margin-top: -12px;font-size:13px;font-family:'Ubuntu Light';color:#4A76A8;">*- Поле не является обязательным для заполнения</label>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="activate-push" style="margin-bottom: 61px;">
+					<span class="pushDown">Внимание! Если Вы активируете ключ при действующей подписке, время не будет сумироваться.</span>
+				</div>
+			</div>
+		</div>
+	</section>
+		<br>
+
+		<div class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="w-100">
+            <div class="copyright font-14 font-medium text-white text-uppercase">fx-cheats.ru / 2018</div>
+            <img src="/main/images/logo_footer.png" alt="" class="d-block">
+            <div class="copyright2 font-14 font-medium text-white text-uppercase"><a href="https://vk.com/fxcheats" class="copyright2 font-14 font-medium text-white text-uppercase" >Наша группа</a></span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+	    <script src="js/jquery-3.2.1.min.js"></script>
+	    <script src="js/bootstrap.min.js"></script>
+	    <script>
+	      $('#activation').modal();
+	    </script>
+
+	<script src="/main/js/jQuery.min.js"></script>
+	<script src="/main/js/jquery.easing.1.3.js"></script>
+	<script src="/main/js/jquery.waypoints.min.js"></script>
+	<script src="/main/js/jquery.stellar.min.js"></script>
+	<script src="/main/js/owl.carousel.min.js"></script>
+	<script src="/main/js/jquery.flexslider-min.js"></script>
+	<script src="/main/js/jquery.countTo.js"></script>
+	<script src="/main/js/jquery.magnific-popup.min.js"></script>
+	<script src="/main/js/magnific-popup-options.js"></script>
+	<script src="/main/js/main.js"></script>
+	</body>
+</html>
